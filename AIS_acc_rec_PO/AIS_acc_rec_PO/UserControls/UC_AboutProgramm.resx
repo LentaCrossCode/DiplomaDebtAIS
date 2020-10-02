@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Внедрение АИС позволяет эффективно заносить, хранить, редактировать  обрабатывать и распределять информацию в базе данных, что  ведёт  к уменьшению затрат времени на составление текущей документации и итоговых отчетов, исключать возможные ошибки в расчетах, работать с огромным количеством данных. </value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>АИС позволяет отслеживать погашение дебиторской задолженности, вследствие чего снижаются риски предприятия по несвоевременному возврату задолженности, и повышается эффективность работы финансового отдела предприятия.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAddUser.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>
